@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
+
+\title{Use Case Specification}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\subsection{Use-Case Name}
+Describe the name of the use-case.
+
+\subsection{Brief Description}
+Provide a brief description of the use-case.
+
+\section{Actors}
+The primary actor involved in the use-cases is the \textbf{teacher}.
+
+\section{Use Cases}
+\subsection{Registration}
+\subsubsection{Preconditions}
+Describe any preconditions that must be met before the use-case can be executed.
+
+\subsubsection{Main Flow}
+% persudo code
+\begin{verbatim}
+1. The teacher enters the initial interface of the system.
+2. The teacher selects the "Register" option.
+3. The system displays the registration form.
+4. While the teacher has not submitted the form:
+    4.1 If "close" is selected, the system returns to the initial interface.
+    4.2 If "submit" is selected, the system validates the form.
+        4.2.1 If the form is invalid, the system displays an error message.
+        4.2.2 If the form is valid, the system registers the teacher and displays a success message.
+\end{verbatim}
+
+
+\subsubsection{Alternative Flows}
+Describe any alternative flows or exceptions in the use-case.
+
+\subsubsection{Postconditions}
+Describe the postconditions that will be true after the use-case has been executed.
+
+\subsubsection{Special Requirements}
+List any special requirements or constraints related to the use-case.
+
+\subsection{Question Bank Management}
+\subsubsection{Preconditions}
+Describe any preconditions that must be met before the use-case can be executed.
+
+\subsubsection{Main Flow}
+% Write the main flow of events in the use-case using persudo code.
+\begin{verbatim}
+1. User enters the initial interface of the system.
+2. User inputs the correct username and password.
+3. User selects the "login" option.
+4. The system displays the main interface.
+5. User selects the "Question Bank" option.
+6. The system displays the question bank interface.
+7. While the user has not selected the "close" option:
+    7.1 If the user selects the "Question:" form, the system allows it to input a question for filtering.
+    7.2 If the user selects "Type:" button, the system allows it to select a list of question types for filtering.
+    7.3 If the user selects "Score:" form the system allows it to input a score for filtering.
+    7.4 If the user click the "Reset" button, the system resets the filters and displays all questions.
+    7.5 If the user selects "Filter" button, the system filters the questions based on the selected filters including the question, type, and score.
+    7.6 If the user select a question from the list, the system displays the question details.
+    7.7 If the user selects the "Add" button, the system displays the form for adding a new question.
+        7.7.1 If the user selects the "Submit" button, the system validates the form.
+    7.8 If the user selects the "Update" button, the system displays the form for updating the selected question.
+        7.8.1 If the user selects the "Submit" button, the system validates the form.
+    7.9 If the user selects the "Delete" button, the system deletes the selected question.
+\end{verbatim}
+\subsubsection{Alternative Flows}
+Describe any alternative flows or exceptions in the use-case.
+
+\subsubsection{Postconditions}
+Describe the postconditions that will be true after the use-case has been executed.
+
+\subsubsection{Special Requirements}
+List any special requirements or constraints related to the use-case.
+
+\subsection{Exam Management}
+\subsubsection{Preconditions}
+Describe any preconditions that must be met before the use-case can be executed.
+
+% TODO 
+\subsubsection{Main Flow}
+% Write the main flow of events in the use-case using persudo code.
+\begin{verbatim}
+1. User enters the initial interface of the system.
+2. User inputs the correct username and password.
+3. User selects the "login" option.
+4. The system displays the main interface.
+5. User selects the "Exam" option.
+6. The system displays the exam interface.
+    6.1 The system displays a list of exams.
+    6.2 The system displays a list of all existing questions.
+    6.2 The system displays a list of questions chosen. 
+7. While the user has not selected the "close" option:
+    7.1 
+\end{verbatim}
+\subsubsection{Alternative Flows}
+Describe any alternative flows or exceptions in the use-case.
+
+\subsubsection{Postconditions}
+Describe the postconditions that will be true after the use-case has been executed.
+
+\subsubsection{Special Requirements}
+List any special requirements or constraints related to the use-case.
+
+\subsection{Grade Statistics}
+\subsubsection{Preconditions}
+Describe any preconditions that must be met before the use-case can be executed.
+% TODO 
+\subsubsection{Main Flow}
+Outline the main flow of events in the use-case.
+
+\subsubsection{Alternative Flows}
+Describe any alternative flows or exceptions in the use-case.
+
+\subsubsection{Postconditions}
+Describe the postconditions that will be true after the use-case has been executed.
+
+\subsubsection{Special Requirements}
+List any special requirements or constraints related to the use-case.
+
+\end{document}
